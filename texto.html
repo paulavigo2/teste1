@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Para Julia</title>
+  <style>
+    body {
+      background-color: #ffe6f2;
+      /* Cor de fundo */
+      color: #4d004d;
+      /* Cor do texto */
+      font-family: 'Consolas', sans-serif;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3.5em;
+      margin-top: 100px;
+      color: #005ccc;
+      /* Cor do título */
+    }
+
+    #sentimento {
+      margin-top: 50px;
+    }
+
+    #botoes {
+      margin-top: 30px;
+    }
+
+    button {
+      padding: 10px 20px;
+      margin: 0 10px;
+      font-size: 1em;
+      cursor: pointer;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+    }
+
+    #continuar {
+      background-color: #4d004d;
+      /* Cor de fundo do botão "Quero Continuar" */
+    }
+
+    #naoContinuar {
+      background-color: #ff8080;
+      /* Cor de fundo do botão "Não Quero Continuar" */
+    }
+  </style>
+</head>
+
+<body>
+  <h1>Para Julia</h1>
+
+  <div id="sentimento">
+    Oi meu amor, tem algumas coisas que estão bagunçadas aqui dentro, o que você acha de arrumar elas comigo?
+  </div>
+
+  <div id="botoes">
+    <button id="continuar" onclick="window.location.href='pagina2.html'">Quero arrumar</button>
+    <button id="naoContinuar" onclick="window.location.href='outrapagina.html'">Não quero não</button>
+  </div>
+</body>
+
+</html>
